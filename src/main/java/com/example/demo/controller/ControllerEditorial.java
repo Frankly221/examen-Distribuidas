@@ -1,4 +1,4 @@
-package com.example.demo.Controller;
+package com.example.demo.controller;
 
 import java.util.List;
 import java.util.Optional;
@@ -16,8 +16,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.demo.DTO.EditorialDTO;
-import com.example.demo.Entity.Editorial;
+import com.example.demo.dto.EditorialDTO;
+import com.example.demo.entity.Editorial;
 import com.example.demo.service.ServiceEditorial;
 
 

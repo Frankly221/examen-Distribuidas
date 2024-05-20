@@ -7,7 +7,7 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.demo.Entity.Editorial;
+import com.example.demo.entity.Editorial;
 import com.example.demo.repository.RepoEditoria;
 
 import jakarta.transaction.Transactional;

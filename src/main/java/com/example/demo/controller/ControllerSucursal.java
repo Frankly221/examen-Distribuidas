@@ -1,4 +1,4 @@
-package com.example.demo.Controller;
+package com.example.demo.controller;
 
 import java.util.List;
 import java.util.Optional;
@@ -16,8 +16,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.demo.DTO.SucursalDTO;
-import com.example.demo.Entity.Sucursal;
+import com.example.demo.dto.SucursalDTO;
+import com.example.demo.entity.Sucursal;
 import com.example.demo.service.ServiceSucursal;
 
 public class ControllerSucursal {
